@@ -5,3 +5,4 @@ jobs:
     runs-on: codebuild-git_hub_final_final-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!"
+      - run: hostname
